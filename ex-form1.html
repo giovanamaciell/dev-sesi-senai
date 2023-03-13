@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" style="background-color: rgb(73, 102, 205);">
+        
+            <th colspan="2">Trabalhando com Forms</th>
+        
+        <!--Digitar nome-->
+        <tr>
+            <td> <label>Nome:</label></td>
+            <td><input type="text"></td>
+        </tr>
+
+        <!--Selecionar genêro-->
+        <tr>
+            <td>Sexo:</td>
+            <td> <form>
+                <input type="radio" id="Feminino" name="Genero" value="Feminino">
+                <label for="Feminino">Feminino</label>
+                <input type="radio" id="Masculino" name="Genero" value="Masculino">
+                <label for="Feminino">Masculino</label>
+            </form>
+        </tr>
+
+        <!--Selecionar escolaridade-->
+        <tr>
+            <td>Escolaridade:</td>
+            <td> <select name="select">
+                <option value="Padrão" selected>Selecione a escolaridade</option>
+                <option value="A">Valor 1</option>
+                <option value="B">Valor 2</option>
+                <option value="C">Valor 3</option>
+              </select> </td>
+        </tr>
+
+        <!--Limpar campos já preenchidos-->
+        <tr>
+            <td>
+                <input type="button" value="Limpar">
+            </td>
+
+            <td>
+               <input type="button" value="Enviar">
+            </td>
+        </tr>
+
+    </table>
+</body>
+</html>

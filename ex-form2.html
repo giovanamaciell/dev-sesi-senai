@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        h1 {
+            color: darkblue;
+        }
+        legend {
+            color: rgb(110, 71, 179);
+        }
+        
+        th {
+            color: white;
+            background-color: darkblue;
+        }
+    </Style>
+</head>
+<body style="background-color: lightblue;">
+    <h1 style="text-align: center;">Ficha de Cadastro</h1>
+    <form>
+    <fieldset>
+        <table>
+    <legend style="text-align: center;">Dados Pessoais</legend> 
+      <tr>
+        <td>Nome Aluno</td>
+        <td><input type="text" placeholder="Digite o nome do aluno"></td>
+      </tr>
+      <tr>
+        <td>Nascimento</td>
+        <td><input type="date"></td>
+      </tr>
+      <tr>
+        <td>Idade</td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td>Nome Mãe</td>
+        <td><input type="text" placeholder="Digite o nome da mãe"></td>
+      </tr>
+      <tr>
+        <td>Telefone</td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td>Email</td>
+        <td><input type="text" placeholder="Digite o email"></td>
+        <tr>
+            <td>Senha</td>
+            <td><input type="text" placeholder="Digite a senha"></td>
+        </tr>
+      <tr>
+            <td>Foto</td>
+            <td><input type="submit" value="Enviar arquivo">Nenhum arquivo escolhido</td>
+      </tr>
+      </table>
+       </fieldset>
+
+       <fieldset>
+        <table style="margin: auto;" style="width: 100%;">
+            <legend style="text-align: center;">Informações de Matrícula</legend>
+            <tableborder="1">
+                <tr>
+                <th>Série</th>
+                <th>Turno</th>
+                <th>Atividades Extracurriculares</th>  </tr>
+                <tr>
+                    <td><select name="select">
+                        <option value="Padrão" selected>Selecione a escolaridade</option>
+                        <option value="A">a</option>
+                        <option value="B">b</option>
+                        <option value="C">c</option>
+                      </select></td>
+
+    <td> <input type="radio" name="turno">Manhã<br>
+         <input type="radio" name="turno">Tarde<br></td>
+
+<!--Atividades Extracurriculares-->
+
+         <td>
+          <input type="checkbox" name="Extracurriculares"  >Informatica <br>
+          <input type="checkbox" name="Extracurriculares"  >Musica <br>
+          <input type="checkbox" name="tExtracurriculares"  >Pintura <br>
+          <input type="checkbox" name="Extracurriculares"  >Judô <br>
+          <input type="checkbox" name="Extracurriculares"  >Futebol <br>
+        </td>
+           </table>
+            </tr>
+        </table>
+       </fieldset>
+
+       <fieldset>
+        <legend style="text-align: center;">Observações</legend>
+        <textarea name="" cols="200" rows="5"></textarea>
+      </fieldset>
+      <!--Botão de limpar o formulário-->
+      
+        <input type="reset" value="Limpar">
+
+      <!--Botão de enviarr o formulário-->
+      <input type="submit" value="Enviar">
+    </form>
+
+
+
+    
+</body>
+</html>
