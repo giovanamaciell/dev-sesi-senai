@@ -1,0 +1,64 @@
+/*FLEX 1 - ROW EM LINHA*/
+.flex-1{
+    background-color: lightgray;
+    /* Alterando o display da div para o tipo flex para ficar mais fácil estilizar as posições dos elementos filhos
+    - por padrão o alinhamento é em limha ROW*/
+    display: flex;
+}
+/*FLEX - 2 COLUMN EM COLUNA*/
+.flex-coluna {
+    background-color: lightgray;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    /*O Flex Direction altera a disposição dos elementos para
+    o tipo coluna colocando um embaixo do outro*/
+    flex-direction: column;
+}
+.wrap{
+    background-color: lightgray;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+img {
+    width: 200px;
+    margin: 10px;
+}
+/*FLEX 4*/
+.centralizar-x{
+    background-color: lightgray;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    /*Centralizar horizontalmente */
+    justify-content: center;
+}
+
+.space-around{
+    background-color: lightgray;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    /*Centralizar horizontalmente */
+    justify-content: space-around;
+}
+
+.space-between{
+    background-color: lightgray;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    /*Centralizar horizontalmente */
+    justify-content: space-between;
+}
+
+.flex-end{
+    background-color: lightgray;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    /*Centralizar horizontalmente */
+    justify-content: flex-end;
+}

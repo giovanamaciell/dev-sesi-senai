@@ -1,0 +1,75 @@
+body{
+    background-color: lightblue; /* Alterando cor de fundo do body */
+}
+
+h1 {    
+    text-align: center; /*Centralizando texto tags h1*/
+}
+
+p{
+    color:blue; /* Alterando a cor do texto */
+}
+img {
+    width: 200px; /* Alterando a largura da imagem  */
+    height: 100px; /* Alterando a altura da imagem */
+}
+
+h2 {
+    font-size: 20px; /* Alterando o tamanho da fonte */
+    background-color: lightcoral;
+}
+h3{
+    text-align: right; /*Alinhado a direita*/
+    font-size: 18px;
+    color: aqua;
+    background-color: black;
+    box-shadow: 2px 2px 0px gray;
+}
+
+/* seletor de class, pode ter vários, começa com . */ 
+.p-vermelho{
+    color: red;
+}
+.p-vermelho:hover{/* Hover altera as propriedades quando passo o mouse */
+    color: white;
+    background-color: red;
+}
+.p-amarelo{
+    color:yellow;
+}
+#p-verde{ /*Seletor de id ÚNICO começa com #  */
+    color:green;
+}
+
+.font-courier-new{ /* Alterando a fonte de um texto */
+    font-family: 'Courier New', Courier, monospace;
+}
+.sombreado{
+    /* Text-shadow colocando sombreado no texto
+    eixo x, eixo y, esfumaçado, cor */
+    text-shadow: 1px 1px 1px gray;
+}
+
+.sombreado2{
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    color: white;
+}
+
+.fonte-padrao{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fonte-google{
+    /* Colocar o nome da fonte que o Google pede no site fonts.google.com */
+    font-family: 'Climate Crisis', cursive;
+}
+.fonte-local{
+    /* Colocando o nome da fonte que nós colocamos no @font-face */
+    font-family: 'Fonte Velho Oeste';
+}
+/* Declarando a fonte baixada, o nome e o caminho da fonte 
+    o .. volta uma pasta para buscar o arquivo*/
+@font-face {
+    font-family: 'Fonte Velho Oeste';
+    src: url(../velhooeste2.ttf);
+}
+

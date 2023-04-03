@@ -1,0 +1,38 @@
+body{
+    background-color:rgb(216, 254, 216);
+}
+h1{
+    text-align: center;
+    background-color: green;
+    color: white;
+    font-family:'Courier New', Courier, monospace
+}
+
+h2{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 2px 4px darkblue;
+}
+
+.p-vermelho{
+    text-shadow: 1px 2px 2px red;
+}
+
+/*Texto amarelo*/
+
+.amarela{
+    text-align: center;
+    text-shadow: 1px 2px 2px yellow;
+}
+
+/*Texto verde*/
+.verde{
+   text-align: right;
+   text-shadow: 1px 2px 2px green;
+
+}
+
+.fonte{
+    font-family: 'Courier New', Courier, monospace
+}

@@ -1,0 +1,51 @@
+body{
+    background-color:gray; /* alterando cor de fundo do body  */
+}
+
+h1{
+    text-align: center; /* centralizando texto tags h1 */
+    color: rgb(55, 45, 45);
+}
+table{
+    
+}
+td{
+    width: 100px;
+    height: 100px;
+}
+.td-azul{
+    background-color: darkblue;
+}
+
+.td-amarelo{
+    background-color: darkgoldenrod;
+}
+
+.td-verde{
+    background-color: darkgreen;
+}
+
+.td-vermelho{
+    background-color: darkred;
+}
+
+.td-magenta{
+    background-color:purple;
+}
+
+#td-única{
+    background-color:rgb(45, 40, 37);
+}
+
+/*Segunda tabela:*/
+.td-magenta{
+    background-color: rgb(61, 11, 61);
+}
+
+.td-magenta:hover{
+    background-color: mediumpurple;
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+}
+

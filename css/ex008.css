@@ -1,0 +1,50 @@
+.borda{
+    border: 1px solid black;
+}
+
+.inferior{
+    border-bottom: 2px solid red;
+}
+
+.arredondada{
+    border: 1px solid green;
+    border-radius: 6px;
+}
+
+.esquerda{
+    border-left: 4px solid blue;
+    background-color: lightblue;
+}
+
+.pontilhado{
+    border-top: 1px dotted blue;
+}
+
+/*Bordas diversificadas*/
+.misturadas{
+    border-top:  4px solid yellow;
+    border-left: 4px double green;
+    border-right: 4px dotted blue;
+    border-bottom: 4px dashed red;
+}
+
+/*Imagem retangular com bordas igualmente redondas*/
+.retangular{
+    border-radius: 40px;
+}
+
+/*Ícone arredondado*/
+.imagem-arredondada{
+    border-radius: 200px;
+}
+/*Ícone arredondado com borda colorida*/
+.borda-colorida{
+    border-radius: 200px;
+    background: linear-gradient(to right, magenta, lightblue, orange);
+    padding: 9px;
+}
+
+/*Bordas diferentes*/
+.bordas-diferentes{
+    border-radius: 20% 5px 20% 5px;
+}
